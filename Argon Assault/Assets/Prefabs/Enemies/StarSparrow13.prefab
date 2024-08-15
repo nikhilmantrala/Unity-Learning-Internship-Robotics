@@ -1081,6 +1081,7 @@ GameObject:
   - component: {fileID: 2567998144890490559}
   - component: {fileID: 5967809610976782964}
   - component: {fileID: 1623091664116296594}
+  - component: {fileID: -3084400897855020134}
   m_Layer: 0
   m_Name: StarSparrow13
   m_TagString: Untagged
@@ -1168,9 +1169,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeathVFX: {fileID: 415504427002550862, guid: 20952366bbf9fe040ad2fe80d8e722d3, type: 3}
   HitVFX: {fileID: 415504427002550862, guid: fd143dc26957cfc4bad543ae8cb5b286, type: 3}
-  parent: {fileID: 0}
   scoreIncrease: 10
   hitpoints: 1
+--- !u!65 &-3084400897855020134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7945089485122667292}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.308413, y: 2.9475918, z: 10.722412}
+  m_Center: {x: 0, y: -0.00000047683716, z: 0.0000021457672}
 --- !u!1 &8728108645243356613
 GameObject:
   m_ObjectHideFlags: 0
