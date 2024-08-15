@@ -1266,6 +1266,7 @@ GameObject:
   - component: {fileID: 5054056306756190652}
   - component: {fileID: 7001407827826984561}
   - component: {fileID: 1246374231250649792}
+  - component: {fileID: 8646786922760939572}
   m_Layer: 0
   m_Name: Viper
   m_TagString: Untagged
@@ -1376,6 +1377,27 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &8646786922760939572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6085328099529101031}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 10.748315, y: 2.8570216, z: 12.959621}
+  m_Center: {x: 0, y: -0.00000023841858, z: 0.0000011920929}
 --- !u!1 &6097553902942986701
 GameObject:
   m_ObjectHideFlags: 0

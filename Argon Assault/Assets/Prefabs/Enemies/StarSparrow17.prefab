@@ -281,6 +281,8 @@ GameObject:
   - component: {fileID: 36652144990042322}
   - component: {fileID: 8638277467529103472}
   - component: {fileID: 1521875666913016998}
+  - component: {fileID: 8823714361581775433}
+  - component: {fileID: -3390588002966082907}
   m_Layer: 0
   m_Name: StarSparrow17
   m_TagString: Untagged
@@ -368,9 +370,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DeathVFX: {fileID: 415504427002550862, guid: 20952366bbf9fe040ad2fe80d8e722d3, type: 3}
   HitVFX: {fileID: 415504427002550862, guid: fd143dc26957cfc4bad543ae8cb5b286, type: 3}
-  parent: {fileID: 0}
   scoreIncrease: 30
   hitpoints: 5
+--- !u!95 &8823714361581775433
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121158936216040913}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &-3390588002966082907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2121158936216040913}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.796676, y: 2.4607563, z: 10.611299}
+  m_Center: {x: 0, y: -0.00000035762787, z: -0.000015735626}
 --- !u!1 &3305807806353119276
 GameObject:
   m_ObjectHideFlags: 0
